@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="20" height="13" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="terrain" tilewidth="32" tileheight="32">
+  <image source="terrain.png" width="672" height="736"/>
+ </tileset>
+ <tileset firstgid="484" name="animated_terrain" tilewidth="32" tileheight="32">
+  <image source="animated_terrain.png" width="192" height="256"/>
+  <tile id="1">
+   <properties>
+    <property name="anim" value="1"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="anim" value="3"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="anim" value="1"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="anim" value="3"/>
+   </properties>
+  </tile>
+  <tile id="7">
+   <properties>
+    <property name="anim" value="7"/>
+   </properties>
+  </tile>
+  <tile id="8">
+   <properties>
+    <property name="anim" value="5"/>
+   </properties>
+  </tile>
+  <tile id="10">
+   <properties>
+    <property name="anim" value="7"/>
+   </properties>
+  </tile>
+  <tile id="11">
+   <properties>
+    <property name="anim" value="5"/>
+   </properties>
+  </tile>
+  <tile id="12">
+   <properties>
+    <property name="anim" value="11"/>
+   </properties>
+  </tile>
+  <tile id="13">
+   <properties>
+    <property name="anim" value="6"/>
+   </properties>
+  </tile>
+  <tile id="14">
+   <properties>
+    <property name="anim" value="9"/>
+   </properties>
+  </tile>
+  <tile id="15">
+   <properties>
+    <property name="anim" value="11"/>
+   </properties>
+  </tile>
+  <tile id="16">
+   <properties>
+    <property name="anim" value="6"/>
+   </properties>
+  </tile>
+  <tile id="17">
+   <properties>
+    <property name="anim" value="9"/>
+   </properties>
+  </tile>
+  <tile id="18">
+   <properties>
+    <property name="anim" value="4"/>
+   </properties>
+  </tile>
+  <tile id="20">
+   <properties>
+    <property name="anim" value="8"/>
+   </properties>
+  </tile>
+  <tile id="21">
+   <properties>
+    <property name="anim" value="4"/>
+   </properties>
+  </tile>
+  <tile id="23">
+   <properties>
+    <property name="anim" value="8"/>
+   </properties>
+  </tile>
+  <tile id="24">
+   <properties>
+    <property name="anim" value="12"/>
+   </properties>
+  </tile>
+  <tile id="25">
+   <properties>
+    <property name="anim" value="2"/>
+   </properties>
+  </tile>
+  <tile id="26">
+   <properties>
+    <property name="anim" value="10"/>
+   </properties>
+  </tile>
+  <tile id="27">
+   <properties>
+    <property name="anim" value="12"/>
+   </properties>
+  </tile>
+  <tile id="28">
+   <properties>
+    <property name="anim" value="2"/>
+   </properties>
+  </tile>
+  <tile id="29">
+   <properties>
+    <property name="anim" value="10"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="grass" width="20" height="13">
+  <data encoding="base64">
+   6AAAAOgAAADoAAAA6QAAAOgAAADpAAAA6AAAAOkAAADqAAAA6gAAAOoAAADoAAAA6AAAALABAACwAQAAsAEAALABAACwAQAAsAEAALABAADpAAAA6AAAAOgAAADpAAAA6AAAAOgAAADpAAAA6gAAAOkAAADqAAAA6QAAAOkAAADoAAAAsAEAALABAACwAQAAsAEAALABAACwAQAAsAEAAOoAAADoAAAA6QAAAOgAAADoAAAA6QAAAOgAAADoAAAA6AAAAOkAAADqAAAA6gAAAOgAAACwAQAAsAEAALABAACwAQAAsAEAALABAACwAQAA6QAAAOoAAADpAAAA6AAAAOkAAADoAAAA6AAAAOkAAADqAAAA6AAAAOkAAADpAAAA6gAAALABAACwAQAAsAEAALABAACwAQAAsAEAALABAADoAAAA6QAAAOoAAADqAAAA6AAAAOgAAADoAAAA6AAAAOgAAADoAAAA6AAAAOgAAADpAAAAsAEAALABAACwAQAAsAEAALABAACwAQAAsAEAAOoAAADoAAAA6AAAAOgAAADoAAAA6QAAAOoAAADoAAAA6AAAAOkAAADqAAAA6gAAAOgAAACwAQAAsAEAALABAACwAQAAsAEAALABAACwAQAA6AAAAOgAAADpAAAA6gAAAOoAAADoAAAA6QAAAOgAAADpAAAA6gAAAOgAAADoAAAA6AAAALABAACwAQAAsAEAALABAACwAQAAsAEAALABAADpAAAA6gAAAOgAAADpAAAA6gAAAOgAAADoAAAA6QAAAOoAAADqAAAA6gAAAOkAAADqAAAAsAEAALABAACwAQAAsAEAALABAACwAQAAsAEAAOoAAADoAAAA6AAAAOkAAADqAAAA6AAAAOgAAADpAAAA6gAAAOkAAADqAAAA6gAAAOgAAACwAQAAsAEAALABAACwAQAAsAEAALABAACwAQAA6QAAAOoAAADoAAAA6QAAAOoAAADqAAAA6AAAAOkAAADqAAAA6QAAAOoAAADpAAAA6gAAALABAACwAQAAsAEAALABAACwAQAAsAEAALABAADoAAAA6QAAAOoAAADoAAAA6QAAAOoAAADpAAAA6gAAAOgAAADpAAAA6gAAAOgAAADpAAAAsAEAALABAACwAQAAsAEAALABAACwAQAAsAEAAOoAAADoAAAA6QAAAOoAAADpAAAA6gAAAOoAAADpAAAA6gAAAOgAAADpAAAA6gAAAOgAAACwAQAAsAEAALABAACwAQAAsAEAALABAACwAQAA6AAAAOkAAADoAAAA6QAAAOoAAADqAAAA6gAAAOkAAADqAAAA6QAAAOoAAADoAAAA6QAAALABAACwAQAAsAEAALABAACwAQAAsAEAALABAAA=
+  </data>
+ </layer>
+ <layer name="water" width="20" height="13">
+  <data encoding="base64">
+   5QEAAP0BAAD9AQAA/QEAAP0BAAD9AQAA/QEAAP0BAAD9AQAA/QEAAP0BAAD9AQAA5gEAAPgBAACxAQAAhQEAAIYBAACHAQAAhwEAAK8BAAD4AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD2AQAA+AEAALEBAACIAQAAiQEAAIUBAACFAQAArwEAAPgBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPYBAAD4AQAAsQEAAIYBAACHAQAAiAEAAIcBAACvAQAA+AEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA9gEAAPgBAACxAQAAhgEAAIcBAACIAQAAhwEAAK8BAAD4AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD2AQAA+AEAALEBAACHAQAAiAEAAIkBAACIAQAArwEAAPgBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPYBAAD4AQAAsQEAAIUBAACGAQAAhwEAAIYBAACvAQAA+AEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA9gEAAPgBAACxAQAAiQEAAIUBAACGAQAAhQEAAK8BAAD4AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD2AQAA+AEAALEBAACGAQAAhwEAAIgBAACJAQAArwEAAPgBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPYBAAD4AQAAsQEAAIYBAACHAQAAiAEAAIcBAACvAQAA+AEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA9gEAAPgBAACxAQAAhwEAAIgBAACJAQAAiAEAAK8BAAD4AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD2AQAA+AEAALEBAACGAQAAhwEAAIgBAACHAQAArwEAAPgBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPYBAAD4AQAAsQEAAIcBAACIAQAAiQEAAIgBAACvAQAA6wEAAPEBAADxAQAA8QEAAPEBAADxAQAA8QEAAPEBAADxAQAA8QEAAPEBAADxAQAA7AEAAPgBAACxAQAAhQEAAIYBAACHAQAAhgEAAK8BAAA=
+  </data>
+ </layer>
+</map>
